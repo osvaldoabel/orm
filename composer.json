@@ -1,0 +1,21 @@
+{
+    "name": "osvaldoabel/php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Osvaldo Abel",
+            "email": "osvalldo.abel@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "OAB\\ORM\\": "src",
+            "App\\": "app"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.2"
+    }
+}
